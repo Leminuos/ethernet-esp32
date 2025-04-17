@@ -10,8 +10,9 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
+#include "enc28j60.h"
 
-#define BLINK_GPIO 2
+#define BLINK_GPIO      2
 
 void app_main(void)
 {
